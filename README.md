@@ -1,52 +1,30 @@
-# Hi, I’m MaxRS07 👋
+# Hi, I’m Max 👋
 
-A concise developer bio focused on building useful tools and learning new technologies. I like clean code, practical projects, and sharing what I learn.
+## 🚀 About Me
 
----
-
-## 🚀 Bio
-- Name: Max (they/them)
-- Role: Software developer 
-- Focus: Web & tools, automation, small utilities and experiments.
-- Location: (Add your location)
-
----
+A computer science student with a concentration in AI/ML development at Northeastern University, spending my first year at the Oakland, CA campus. I love using my free time to develop small side projects including Web and iOS apps, reinforcement models in Unity, and mods for games with a focus on visual effects.  
 
 ## 🧰 Tech Stack
-- Languages: JavaScript/TypeScript, Python, Go
-- Frameworks/Tools: Node.js, React, Express, FastAPI, Docker, GitHub Actions
-- Databases & Others: PostgreSQL, Redis, SQLite, REST APIs
 
----
+### Languages
+<p align="left"> <img src="https://skillicons.dev/icons?i=js" width="45"/> <img src="https://skillicons.dev/icons?i=ts" width="45"/> <img src="https://skillicons.dev/icons?i=python" width="45"/> <img src="https://skillicons.dev/icons?i=go" width="45"/> <img src="https://skillicons.dev/icons?i=rust" width="45"/> <img src="https://skillicons.dev/icons?i=csharp" width="45"/></p>
 
-## 🔗 Connect / Socials
-- GitHub: https://github.com/MaxRS07
-- Twitter: https://twitter.com/ (add handle)
-- LinkedIn: https://www.linkedin.com/in/ (add handle)
-- Email: you@example.com
+### Frameworks / Tools
 
-> Update the links above with your handles / email.
+<p align="left"> <img src="https://skillicons.dev/icons?i=nodejs" width="45"/> <img src="https://skillicons.dev/icons?i=react" width="45"/> <img src="https://skillicons.dev/icons?i=express" width="45"/> <img src="https://skillicons.dev/icons?i=docker" width="45"/> <img src="https://skillicons.dev/icons?i=githubactions" width="45"/> </p>
 
----
+### Databases & Other
+
+<p align="left"> <img src="https://skillicons.dev/icons?i=postgres" width="45"/> <img src="https://skillicons.dev/icons?i=redis" width="45"/> <img src="https://skillicons.dev/icons?i=sqlite" width="45"/> <img src="https://skillicons.dev/icons?i=postman" width="45"/> </p>
+
+### 🔗 Connect / Socials
+
+<p align="left"> <a href="https://github.com/MaxRS07"> <img src="https://skillicons.dev/icons?i=github" width="45" /> </a> <a href="https://www.linkedin.com/in/maxsiebengartner"> <img src="https://skillicons.dev/icons?i=linkedin" width="45" /> </a> <a href="mailto:Max@Siebengartner.com"> <img src="https://skillicons.dev/icons?i=gmail" width="45" /> </a> </p>
 
 ## 📈 Stats & Visuals
-<!-- GitHub Readme Stats -->
-<p align="center">
-  <a href="https://github.com/MaxRS07">
-    <img src="https://github-readme-stats.vercel.app/api?username=MaxRS07&show_icons=true&theme=radical&count_private=true" alt="MaxRS07's GitHub stats"/>
-  </a>
-</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxRS07&layout=compact&theme=radical" alt="Top languages"/>
-</p>
+<div align="center" style="display:flex; justify-content:center; gap:20px;"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=MaxRS07&show_icons=true&theme=radical&count_private=true" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxRS07&layout=compact&theme=radical" /> </div>
 
----
+## ✨ Quick Links
 
-## ✨ Quick links
-- Projects: https://github.com/MaxRS07?tab=repositories
-- Resume / Portfolio: (add link)
-
----
-
-If you want changes to tone, more sections (projects, roadmap, contact form), or specific visuals, tell me and I’ll update it. :sparkles:
+Projects: https://github.com/MaxRS07?tab=repositories
