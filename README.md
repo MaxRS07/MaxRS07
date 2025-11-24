@@ -2,7 +2,7 @@
 
 ## 🚀 About Me
 
-A computer science student with a concentration in AI/ML development at Northeastern University, spending my first year at the Oakland, CA campus. I love using my free time to develop small side projects including Web and iOS apps, reinforcement models in Unity, and mods for games with a focus on visual effects.  
+I’m a computer science student at Northeastern University, concentrating in AI/ML development, currently spending my first year at the Oakland, CA campus. In my free time, I enjoy building small side projects, including web and iOS apps, game mods, and experimenting with model fine-tuning on Kaggle.
 
 ## 🧰 Tech Stack
 
