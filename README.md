@@ -16,7 +16,7 @@ I’m a computer science student at Northeastern University, concentrating in AI
 
 ### Databases & Other
 
-<p align="left"> <img src="https://skillicons.dev/icons?i=postgres" width="45"/> <img src="https://skillicons.dev/icons?i=redis" width="45"/> <img src="https://skillicons.dev/icons?i=sqlite" width="45"/> <img src="https://skillicons.dev/icons?i=postman" width="45"/> </p>
+<p align="left"> <img src="https://skillicons.dev/icons?i=postgres" width="45"/> <img src="https://skillicons.dev/icons?i=redis" width="45"/> <img src="https://skillicons.dev/icons?i=sqlite" width="45"/>
 
 ### 🔗 Connect / Socials
 
