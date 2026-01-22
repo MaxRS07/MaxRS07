@@ -1,6 +1,5 @@
 # Hi, I’m Max 👋
 
-## [Visit My Website!](https://maxrs07.github.io)
 ## 🚀 About Me
 
 I’m a computer science student at Northeastern University, concentrating in AI/ML development, currently spending my first year at the Oakland, CA campus. In my free time, I enjoy building small side projects, including web and iOS apps, game mods, and experimenting with model fine-tuning on Kaggle. Feel free to check out my repositories and reach out for questions!
