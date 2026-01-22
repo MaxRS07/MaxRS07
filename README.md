@@ -11,7 +11,7 @@ I’m a computer science student at Northeastern University, concentrating in AI
 
 ### Frameworks / Tools
 
-<p align="left"> <img src="https://skillicons.dev/icons?i=nodejs" width="45"/> <img src="https://skillicons.dev/icons?i=react" width="45"/> <img src="https://skillicons.dev/icons?i=express" width="45"/> <img src="https://skillicons.dev/icons?i=docker" width="45"/> <img src="https://skillicons.dev/icons?i=githubactions" width="45"/> </p>
+<p align="left"> <img src="https://skillicons.dev/icons?i=nodejs" width="45"/> <img src="https://skillicons.dev/icons?i=react" width="45"/> <img src="https://skillicons.dev/icons?i=nextjs" width="45"/> <img src="https://skillicons.dev/icons?i=express" width="45"/> <img src="https://skillicons.dev/icons?i=docker" width="45"/> <img src="https://skillicons.dev/icons?i=githubactions" width="45"/> </p>
 
 ### Databases & Other
 
