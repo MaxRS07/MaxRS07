@@ -1,4 +1,4 @@
-# Hi, I’m Max 👋
+# Hi, I’m Max Siebengartner 👋
 
 ## 🚀 About Me
 
@@ -27,4 +27,5 @@ I’m a computer science student at Northeastern University, concentrating in AI
 
 ## ✨ Quick Links
 
-Projects: https://github.com/MaxRS07?tab=repositories
+- [Website]()
+- [My Projects](https://github.com/MaxRS07?tab=repositories)
