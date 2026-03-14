@@ -76,6 +76,11 @@
   overflow: hidden;
 }
 
+.portrait img {
+  height: 100%;
+  width: auto;
+}
+
 .portraitLabel {
   font-size: 0.8rem;
   color: var(--text-muted, #4f5b7a);
@@ -120,7 +125,7 @@
 }
 
 .socialLink:hover img {
-  filter: brightness(0) saturate(100%) invert(40%) sepia(80%) saturate(500%) hue-rotate(210deg);
+  filter: none;
 }
 
 /* ─── Form ───────────────────────────────────────────────────── */

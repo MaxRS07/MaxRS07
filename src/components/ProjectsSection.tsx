@@ -4,6 +4,7 @@ import { DisplayProjects } from '@/types/ProjectData';
 import { Icon } from '@/types/Icons';
 import Image from 'next/image';
 import openIcon from '../../public/open.svg';
+import { ProjectTags } from '@/types/ProjectTags';
 
 export default function ProjectsSection() {
 
@@ -56,10 +57,23 @@ export default function ProjectsSection() {
                     <span className={styles.divider} aria-hidden="true" />
 
                     <div className={styles.techTags}>
-                      {project.tags.map((tag, i) => (
+                      {project.icons.map((tag, i) => (
                         <ProjectIconTag key={i} icon={tag} />
                       ))}
                     </div>
+                  </div>
+                  <div className={`mt-3 gap-2 ${styles.projectTags}`}>
+                    {project.tags?.map((tag, i) => {
+                      const tagStyle = ProjectTags[tag];
+                      return (
+                        <span
+                          key={i}
+                          className={`${tagStyle?.className || ""} px-2 py-1 rounded-full`}
+                        >
+                          {tagStyle?.name || tag}
+                        </span>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

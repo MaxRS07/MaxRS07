@@ -4,9 +4,9 @@ import linkedinIcon from '../../public/linkedin.png';
 import Me from '../../public/me.jpeg';
 
 const socials = [
-  { name: 'GitHub', url: 'https://github.com/MaxRS07', icon: 'https://cdn.simpleicons.org/github/ffffff' },
+  { name: 'GitHub', url: 'https://github.com/MaxRS07', icon: 'https://cdn.simpleicons.org/github' },
   { name: 'LinkedIn', url: 'https://linkedin.com/in/maxsiebengartner', img: linkedinIcon },
-  { name: 'Instagram', url: 'https://instagram.com/maxsiebengartner', icon: 'https://cdn.simpleicons.org/instagram/ffffff' },
+  { name: 'Instagram', url: 'https://instagram.com/maxsiebengartner', icon: 'https://cdn.simpleicons.org/instagram' },
 ];
 
 export default function ContactSection() {
@@ -20,7 +20,7 @@ export default function ContactSection() {
           {/* Left: portrait + social icons */}
           <div className={styles.left}>
             <div className={styles.portrait}>
-              <Image src={Me} alt="Max Siebengartner" className='w-full h-full' />
+              <Image src={Me} alt="Max Siebengartner" className='h-full' />
             </div>
 
             <div className={styles.socials}>
