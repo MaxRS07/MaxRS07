@@ -1,0 +1,53 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--hero-grad-a) 0%, var(--hero-grad-b) 100%);
+  color: #fff;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 60% 40%, rgba(255,255,255,0.07) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 3.75rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  animation: fadeInUp 0.7s ease both;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: 0.85;
+  animation: fadeInUp 0.7s ease 0.15s both;
+  line-height: 1.6;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .heroTitle    { font-size: 2.5rem; }
+  .heroSubtitle { font-size: 1.1rem; }
+}

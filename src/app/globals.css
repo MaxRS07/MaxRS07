@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ─── Design tokens — dark (default) ────────────────────────── */
+:root,
+:root[data-theme="dark"] {
+  --bg-base:       #0f1117;
+  --bg-surface:    #1c2235;
+  --bg-elevated:   #252d42;
+  --bg-subtle:     #0b0e16;
+
+  --border:        #2a3249;
+  --border-muted:  #3d4d6b;
+
+  --text-primary:  #f0f2f8;
+  --text-secondary:#8b95b0;
+  --text-muted:    #4f5b7a;
+
+  --accent:        #6366f1;
+  --accent-hover:  #4f46e5;
+  --accent-glow:   rgba(99, 102, 241, 0.3);
+  --accent-ring:   rgba(99, 102, 241, 0.18);
+  --accent-soft:   rgba(99, 102, 241, 0.1);
+
+  --hero-grad-a:   #4f46e5;
+  --hero-grad-b:   #7c3aed;
+
+  --nav-bg:        rgba(15, 17, 23, 0.88);
+  --nav-shadow:    0 1px 0 rgba(255,255,255,0.06);
+
+  --shadow-card:   0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-hover:  0 20px 48px rgba(0, 0, 0, 0.55);
+  --shadow-btn:    0 8px 20px rgba(99, 102, 241, 0.45);
+
+  --radius-card:   16px;
+  --radius-input:  10px;
+
+  /* icon filters */
+  --icon-filter:        invert(1) opacity(0.6);
+  --social-icon-filter: brightness(0) invert(0.55);
+}
+
+/* ─── Light mode ─────────────────────────────────────────────── */
+:root[data-theme="light"] {
+  --bg-base:       #f0f2fa;
+  --bg-surface:    #ffffff;
+  --bg-elevated:   #e8ebf5;
+  --bg-subtle:     #e4e7f2;
+
+  --border:        #d8dcee;
+  --border-muted:  #bfc6e0;
+
+  --text-primary:  #111827;
+  --text-secondary:#4b5563;
+  --text-muted:    #9ca3af;
+
+  --accent:        #6366f1;
+  --accent-hover:  #4f46e5;
+  --accent-glow:   rgba(99, 102, 241, 0.2);
+  --accent-ring:   rgba(99, 102, 241, 0.14);
+  --accent-soft:   rgba(99, 102, 241, 0.08);
+
+  --hero-grad-a:   #6366f1;
+  --hero-grad-b:   #8b5cf6;
+
+  --nav-bg:        rgba(240, 242, 250, 0.92);
+  --nav-shadow:    0 1px 0 rgba(0,0,0,0.1);
+
+  --shadow-card:   0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-hover:  0 12px 32px rgba(0, 0, 0, 0.14);
+  --shadow-btn:    0 6px 16px rgba(99, 102, 241, 0.32);
+
+  /* icon filters */
+  --icon-filter:        invert(0) opacity(0.55);
+  --social-icon-filter: brightness(0) invert(0.25);
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Fallback bg on html prevents flash of black */
+html {
+  background-color: #0f1117;
+}
+html[data-theme="light"] {
+  background-color: #f0f2fa;
+}
+
+body {
+  background-color: var(--bg-base, #0f1117);
+  color: var(--text-primary, #f0f2f8);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0;
+  min-height: 100vh;
+}

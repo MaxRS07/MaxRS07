@@ -1,0 +1,32 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  background: var(--bg-base, #0f1117);
+  transition: background 0.3s ease;
+}
+
+.container { max-width: 800px; width: 100%; }
+
+.title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+  color: var(--text-primary, #f0f2f8);
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.text {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--text-secondary, #8b95b0);
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .title { font-size: 2rem; }
+  .text  { font-size: 0.95rem; }
+}
