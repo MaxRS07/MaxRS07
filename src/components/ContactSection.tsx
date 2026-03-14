@@ -1,6 +1,7 @@
 import styles from './ContactSection.module.css';
 import Image from 'next/image';
 import linkedinIcon from '../../public/linkedin.png';
+import Me from '../../public/me.jpeg';
 
 const socials = [
   { name: 'GitHub', url: 'https://github.com/MaxRS07', icon: 'https://cdn.simpleicons.org/github/ffffff' },
@@ -19,7 +20,7 @@ export default function ContactSection() {
           {/* Left: portrait + social icons */}
           <div className={styles.left}>
             <div className={styles.portrait}>
-              <span className={styles.portraitLabel}>Photo</span>
+              <Image src={Me} alt="Max Siebengartner" className='w-full h-full' />
             </div>
 
             <div className={styles.socials}>

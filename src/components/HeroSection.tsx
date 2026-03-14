@@ -5,9 +5,6 @@ export default function HeroSection() {
     <section id="home" className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>Welcome to My Portfolio</h1>
-        <p className={styles.heroSubtitle}>
-          Building beautiful and functional web experiences
-        </p>
       </div>
     </section>
   );

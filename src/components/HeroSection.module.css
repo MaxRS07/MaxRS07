@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--hero-grad-a) 0%, var(--hero-grad-b) 100%);
   color: #fff;
   padding: 2rem;
   position: relative;

@@ -13,19 +13,12 @@ export default function SkillsSection() {
   return (
     <section id="skills" className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Skills</h2>
+        <h2 className={styles.title}>Top Skills</h2>
         <div className={styles.skillsGrid}>
           {skills.map((skill) => (
             <div key={skill.name} className={styles.skillCard}>
-              <div className={styles.skillHeader}>
+              <div className={"justify-center " + styles.skillHeader}>
                 <span className={styles.skillName}>{skill.name}</span>
-                <span className={styles.skillLevel}>{skill.level}%</span>
-              </div>
-              <div className={styles.progressBar}>
-                <div
-                  className={styles.progressFill}
-                  style={{ width: `${skill.level}%` }}
-                />
               </div>
             </div>
           ))}
