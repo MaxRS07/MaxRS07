@@ -20,7 +20,7 @@ export default function ContactSection() {
           {/* Left: portrait + social icons */}
           <div className={styles.left}>
             <div className={styles.portrait}>
-              <Image src={Me} alt="Max Siebengartner" className='h-full' />
+              <Image src={Me} alt="Max Siebengartner" fill className={styles.portraitImg} />
             </div>
 
             <div className={styles.socials}>

@@ -68,17 +68,18 @@
   border-radius: 18px;
   background: var(--bg-surface, #1c2235);
   border: 1px solid var(--border, #2a3249);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   flex-shrink: 0;
   box-shadow: var(--shadow-card);
   overflow: hidden;
 }
 
-.portrait img {
-  height: 100%;
-  width: auto;
+.portraitImg {
+  object-fit: cover;
+  object-position: center top;
+  width: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%);
 }
 
 .portraitLabel {
