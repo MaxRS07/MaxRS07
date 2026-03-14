@@ -231,7 +231,6 @@
   flex-wrap: nowrap;
   gap: 0.4rem;
   align-items: center;
-  overflow: hidden;
 }
 
 .techTag {
