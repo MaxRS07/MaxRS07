@@ -1,6 +1,7 @@
 import MediaSlider from './MediaSlider';
 import styles from './ProjectsSection.module.css';
-import { DisplayProjects, Icon } from '@/types/ProjectData';
+import { DisplayProjects } from '@/types/ProjectData';
+import { Icon } from '@/types/Icons';
 import Image from 'next/image';
 import openIcon from '../../public/open.svg';
 
