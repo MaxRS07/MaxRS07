@@ -5,12 +5,12 @@ export interface Icon {
     imgUrl: Url,
     altUrl?: Url,
 }
-const createSkill = (name: string, img?: string): Icon => {
-    return { name: name, imgUrl: `https://cdn.simpleicons.org/${img ?? name}` }
+const createSkill = (name: string, col?: string): Icon => {
+    return { name: name, imgUrl: `https://cdn.simpleicons.org/${name}` + (col ? `/${col}` : '') }
 }
 
-const Rust: Icon = createSkill('Rust')
-const NextJS: Icon = createSkill('Next.js')
+const Rust: Icon = createSkill('Rust', 'ffffff')
+const NextJS: Icon = createSkill('Next.js', 'ffffff')
 const TS: Icon = createSkill("TypeScript")
 const React: Icon = createSkill("React")
 const CSS: Icon = createSkill("CSS")
