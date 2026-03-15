@@ -9,8 +9,8 @@ const createSkill = (name: string, col?: string): Icon => {
     return { name: name, imgUrl: `https://cdn.simpleicons.org/${name}` + (col ? `/${col}` : '') }
 }
 
-const Rust: Icon = createSkill('Rust', 'ffffff')
-const NextJS: Icon = createSkill('Next.js', 'ffffff')
+const Rust: Icon = createSkill('Rust')
+const NextJS: Icon = createSkill('Next.js')
 const TS: Icon = createSkill("TypeScript")
 const React: Icon = createSkill("React")
 const CSS: Icon = createSkill("CSS")
