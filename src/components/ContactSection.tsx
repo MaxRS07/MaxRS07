@@ -1,7 +1,10 @@
+'use client';
+
 import styles from './ContactSection.module.css';
 import Image from 'next/image';
 import linkedinIcon from '../../public/linkedin.png';
 import Me from '../../public/me.jpeg';
+import { sendMessage } from '@/lib/mail';
 
 const socials = [
   { name: 'GitHub', url: 'https://github.com/MaxRS07', icon: 'https://cdn.simpleicons.org/github' },
@@ -10,6 +13,16 @@ const socials = [
 ];
 
 export default function ContactSection() {
+  const handleSendMessage = async () => {
+    const name = (document.getElementById("name") as HTMLInputElement).value;
+    const email = (document.getElementById("email") as HTMLInputElement).value;
+    const message = (document.getElementById("message") as HTMLTextAreaElement).value;
+    if (await sendMessage(name, email, message)) {
+      (document.getElementById("name") as HTMLInputElement).value = '';
+      (document.getElementById("email") as HTMLInputElement).value = '';
+      (document.getElementById("message") as HTMLTextAreaElement).value = '';
+    }
+  }
   return (
     <section id="contact" className={styles.section}>
       <div className={styles.container}>
@@ -55,7 +68,9 @@ export default function ContactSection() {
               </div>
               <div className={styles.formFooter}>
                 <span className={styles.formNote}>I'll get back to you within a day or two.</span>
-                <button type="button" className={styles.submitBtn}>Send Message</button>
+                <button type="button" className={styles.submitBtn} onClick={handleSendMessage}>
+                  Send Message
+                </button>
               </div>
             </div>
           </div>
