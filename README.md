@@ -25,7 +25,7 @@ I’m a computer science student at Northeastern University, concentrating in AI
 
 ## 📈 Stats & Visuals
 
-<div align="center" style="display:flex; justify-content:center; gap:20px;"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=MaxRS07&show_icons=true&theme=radical&count_private=true" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxRS07&layout=compact&theme=radical" /> </div>
+<div align="center" style="display:flex; justify-content:between;"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=MaxRS07&show_icons=true&theme=radical&count_private=true" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxRS07&layout=compact&theme=radical" /> </div>
 
 ## ✨ Quick Links
 
