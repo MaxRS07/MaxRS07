@@ -1,32 +1,138 @@
 .section {
-  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 6rem 2rem;
-  background: var(--bg-base, #0f1117);
+  padding: 7rem 2rem;
+  background: var(--bg-subtle, #0b0e16);
   transition: background 0.3s ease;
 }
 
-.container { max-width: 800px; width: 100%; }
+.container {
+  max-width: 1080px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1rem;
+}
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 800;
-  margin-bottom: 2.5rem;
+  margin: 0 0 1.75rem;
   color: var(--text-primary, #f0f2f8);
-  text-align: center;
   letter-spacing: -0.03em;
+  line-height: 1.15;
 }
 
 .text {
   font-size: 1.05rem;
   line-height: 1.85;
   color: var(--text-secondary, #8b95b0);
-  margin-bottom: 1.25rem;
+  margin: 0 0 1.25rem;
 }
 
-@media (max-width: 768px) {
-  .title { font-size: 2rem; }
-  .text  { font-size: 0.95rem; }
+.text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ─── Education card ───────────────────────────────────────── */
+.card {
+  padding: 1.75rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.cardHeader {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cardIcon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.cardSub {
+  font-size: 0.85rem;
+  margin: 0.15rem 0 0;
+  color: var(--text-secondary);
+}
+
+.cardList {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.cardList > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.cardList dt { color: var(--text-muted); }
+.cardList dd { margin: 0; color: var(--text-primary); font-weight: 500; text-align: right; }
+
+.courseLabel {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 0 0 0.6rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.courses li {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 860px) {
+  .section { padding: 5rem 1rem; }
+  .container { grid-template-columns: 1fr; gap: 2.5rem; }
+  .title { font-size: 1.75rem; }
+  .text  { font-size: 0.98rem; }
 }

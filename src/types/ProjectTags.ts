@@ -11,5 +11,7 @@ export const ProjectTags: Record<string, ProjectTag> = {
     "Automation": { name: "Automation", className: "bg-amber-500/15 text-amber-400 text-sm font-medium" },
     "DataVisualization": { name: "Data Visualization", className: "bg-pink-500/15 text-pink-400 text-sm font-medium" },
     "MobileApps": { name: "Mobile Apps", className: "bg-cyan-500/15 text-cyan-400 text-sm font-medium" },
-    "CI": { name: "CI", className: "bg-gray-500/15 text-gray-400 text-sm font-medium" }
+    "CI": { name: "CI", className: "bg-gray-500/15 text-gray-400 text-sm font-medium" },
+    "Systems": { name: "Systems", className: "bg-orange-500/15 text-orange-400 text-sm font-medium" },
+    "OS": { name: "Operating Systems", className: "bg-teal-500/15 text-teal-400 text-sm font-medium" }
 }

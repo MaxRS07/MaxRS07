@@ -27,7 +27,10 @@ export default function ContactSection() {
     <section id="contact" className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.title}>Get in Touch</h2>
-        <p className={styles.subtitle}>Have a project in mind or just want to say hi?</p>
+        <p className={styles.subtitle}>
+          Hiring for a Jan – Jun 2027 co-op, or just want to say hi? Send a message or email{' '}
+          <a href="mailto:max@siebengartner.com" className={styles.emailLink}>max@siebengartner.com</a>.
+        </p>
 
         <div className={styles.layout}>
           {/* Left: portrait + social icons */}

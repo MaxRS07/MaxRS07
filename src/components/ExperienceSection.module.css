@@ -1,0 +1,122 @@
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 7rem 2rem;
+  background: var(--bg-base, #0f1117);
+  transition: background 0.3s ease;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin: 0 0 3rem;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2.5rem;
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.dates {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.location {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.role {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.at {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.org {
+  color: var(--accent);
+}
+
+.bullets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--border-muted);
+}
+
+.item:hover .bullets li::before {
+  background: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .section { padding: 5rem 1rem; }
+  .title { font-size: 1.75rem; margin-bottom: 2rem; }
+  .item { grid-template-columns: 1fr; gap: 0.75rem; }
+  .meta { flex-direction: row; gap: 0.75rem; }
+}

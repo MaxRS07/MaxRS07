@@ -238,3 +238,11 @@
   .submitBtn { width: 100%; }
   .formFooter { flex-direction: column; align-items: flex-start; }
 }
+
+.emailLink {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.emailLink:hover { text-decoration: underline; }
